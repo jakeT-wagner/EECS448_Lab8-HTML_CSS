@@ -1,0 +1,50 @@
+p
+{
+    color: black;
+    background-color: white;
+    border: 3px solid goldenrod;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.links {
+    color: black;
+    background-color: gray;
+    border: 3px solid green;
+}
+
+.profile {
+    margin-left: 39%;
+    border: 5px solid darkgrey;
+    margin-right:auto ;
+    position: relative;
+    display: inline-block;
+}
+
+.profile .hover_img {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.profile:hover .hover_img{
+    display: inline;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 7em;
+    color: white;
+}
+
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-image: url("https://66.media.tumblr.com/aaabf5b74b4eb7ead32e52006b0531e5/tumblr_olwwajpCxJ1stbkjno1_500.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
